@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	padding-top: 70px;
+	overflow-x: hidden;
 }
 
 ol, ul {
@@ -3521,7 +3522,7 @@ input, select, textarea {
 #nav {
     position: fixed;
     top: 0;
-	left: 0;
+    left: 0;
     width: 100%;
     background: transparent;
     transition: background 0.3s ease;
@@ -3530,10 +3531,11 @@ input, select, textarea {
 
 #nav.scrolled {
     background: rgba(0,0,0,0.85);
+}
 
 .nav-container {
     max-width: 1100px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
