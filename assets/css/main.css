@@ -3076,11 +3076,11 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: none;
+			background: rgba(0,0,0,0.45);
 			content: '';
 			height: 100%;
 			left: 0;
-			opacity: 0;
+			opacity: 1;
 			position: absolute;
 			top: 0;
 			width: 100%;
