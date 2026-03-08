@@ -3566,3 +3566,13 @@ input, select, textarea {
 .nav-links a:hover {
     opacity: 0.7;
 }
+
+.video-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 6px;
+}
