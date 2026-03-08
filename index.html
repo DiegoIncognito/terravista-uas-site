@@ -563,11 +563,23 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			    }
 			});
 			</script>
-
+			<script>
+	const backToTop = document.getElementById("backToTop");
+	
+	window.addEventListener("scroll", function () {
+	    if (window.scrollY > 500) {
+	        backToTop.classList.add("show");
+	    } else {
+	        backToTop.classList.remove("show");
+	    }
+	});
+	</script>
+		
 <a href="#header" id="backToTop" class="scrolly">↑</a>
 	</body>
 
 </html>
+
 
 
 
