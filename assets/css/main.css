@@ -3521,6 +3521,7 @@ input, select, textarea {
 #nav {
     position: fixed;
     top: 0;
+	left: 0;
     width: 100%;
     background: transparent;
     transition: background 0.3s ease;
