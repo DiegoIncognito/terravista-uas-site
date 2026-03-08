@@ -3116,6 +3116,14 @@ input, select, textarea {
     text-align: center;
 }
 
+#footer .icons a {
+    color: #bbb;
+}
+
+#footer .icons a:hover {
+    color: #fff;
+}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
